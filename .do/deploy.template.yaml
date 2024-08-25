@@ -1,9 +1,9 @@
 spec:
-  name: sample-hexo
+  name: purplepig-hexo
   static_sites:
-  - build_command: yarn build
+  - build_command: pnpm build
     environment_slug: hexo
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-hexo.git
-    name: sample-hexo
+      repo_clone_url: https://github.com/bodrick/purplepig-hexo.git
+    name: purplepig-hexo
